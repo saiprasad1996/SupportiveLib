@@ -12,9 +12,6 @@ class Test
         for(int i=2;i<=22;i=i+5)
         (bingo.b[i]).setEnabled(true);
         
-        for(int i=3;i<=23;i=i+5)
-          (bingo.b[i]).setEnabled(true);
-        
         bingo.checkForCol1();
         bingo.checkForCol2();
         bingo.checkForCol3();
